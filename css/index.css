@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: black;
+}
+.bg{
+    width: 500px;
+    height: 700px;
+    position: relative;
+    margin: 10px auto;
+    background: url("../images/img_bg_level_1.jpg") no-repeat center center;
+    overflow: hidden;
+}
+/*游戏提醒*/
+.youxi_content{
+    width: 200px;
+    height: 480px;
+    border: 3px solid #00a4ff;
+    border-radius: 15px;
+    position: fixed;
+    top:20%;
+    right: 0px;
+    transform: translateX(-100px);
+
+}
+.youxi_content ul li{
+     height: 80px;
+    border: 1px solid #ccc;
+
+}
+.youxi_content ul li a{
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: #7cfc00;
+    text-shadow: 0 3px 20px darkslategray;
+}
+/*游戏自己*/
+.my_plan{
+    width: 120px;
+    height: 100px;
+   position: absolute;
+    background: url("../images/img_plane_main.png") 11px -351px ;
+    bottom: 20px;
+    left:100px;
+
+}
+.zidan{
+    width: 24px;
+    height: 60px;
+    position: absolute;
+    background: url("../images/img_bullet.png") -939px -560px;
+}
